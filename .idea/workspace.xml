@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="34af90bb-2aff-4b77-801a-f43bd39513d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Docker/app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/grpc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/grpc/controllers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/controllers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/middleware/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/add_product/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/add_product/handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/add_product/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/add_product/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/add_products/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/add_products/handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/add_products/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/add_products/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/get_product/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/get_product/handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/get_product/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/get_product/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/get_products/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/get_products/handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/get_products/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/http/use_cases/products/get_products/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/websocket/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application/api/v1/websocket/controllers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/domain/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/domain/schemas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/infrastructure/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/infrastructure/_smtp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/infrastructure/amqp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/infrastructure/cache/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/infrastructure/di/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/infrastructure/monitoring/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/infrastructure/persistence/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/infrastructure/ports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/infrastructure/s3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/infrastructure/tracing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/external/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/internal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/__init__.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="35mseYqwdMHc1DuSuQbKhTjrt5h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "//wsl$/Ubuntu/home/simon/PycharmProjects/AsyncPyTemplate/app/application/api/v1/http/use_case/products/get_products",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\home\simon\PycharmProjects\AsyncPyTemplate\app\application\api\v1\http\use_case\products\get_products" />
+      <recent name="\\wsl$\Ubuntu\home\simon\PycharmProjects\AsyncPyTemplate\app\application\api\v1\http\use_case\products\add_products" />
+      <recent name="\\wsl$\Ubuntu\home\simon\PycharmProjects\AsyncPyTemplate\app\application\api\v1\http\products\get_products" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\home\simon\PycharmProjects\AsyncPyTemplate\app\application\api\v1\http\use_cases" />
+      <recent name="\\wsl$\Ubuntu\home\simon\PycharmProjects\AsyncPyTemplate\app\application\api\v1\http\products\add_product" />
+      <recent name="\\wsl$\Ubuntu\home\simon\PycharmProjects\AsyncPyTemplate\app\application\api\v1" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34af90bb-2aff-4b77-801a-f43bd39513d6" name="Changes" comment="" />
+      <created>1763726676564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763726676564</updated>
+      <workItem from="1763726677601" duration="388000" />
+      <workItem from="1763727070584" duration="4990000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,18 @@
+[project]
+name = "asyncpytemplate"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dishka>=1.7.2",
+    "fastapi>=0.121.3",
+    "fastapi-msgspec>=0.1.0",
+    "pytz>=2025.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.1",
+]
+
