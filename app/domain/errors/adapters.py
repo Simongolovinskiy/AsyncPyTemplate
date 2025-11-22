@@ -1,0 +1,6 @@
+class AdaptersError(Exception):
+    ...
+
+
+class SourceProviderError(AdaptersError):
+    ...

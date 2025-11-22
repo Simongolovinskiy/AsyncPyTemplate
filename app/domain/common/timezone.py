@@ -2,7 +2,7 @@ from datetime import datetime
 
 import pytz
 
-TIMEZONE = "Europe/Moscow"
+TIMEZONE = "UTC"
 
 
 def get_current_datetime() -> datetime:
