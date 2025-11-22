@@ -12,6 +12,7 @@ from app.domain.ports.repositories.product import ProductRepositoryPort
 class ProductRepository(ProductRepositoryPort):
     def __init__(self, conn: asyncpg.Connection):
         self._conn = conn
+        self._conn.
 
     async def add(self, product: Product) -> None:
         query = """

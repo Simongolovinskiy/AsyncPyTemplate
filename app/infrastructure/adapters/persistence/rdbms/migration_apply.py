@@ -27,5 +27,3 @@ def db_yoyo_migration(connection_string: str) -> None:
                     logger.error(f"Rollback failed for migration {migration}: {rollback_error}")
             logger.error(f"Migration failed: {e}", exc_info=True)
             raise e
-
-
