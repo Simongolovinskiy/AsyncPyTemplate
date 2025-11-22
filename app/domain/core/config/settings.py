@@ -33,3 +33,19 @@ class CacheConfig(msgspec.Struct):
             ssl=source_provider.get_variable(SecretsEnum.CACHE_SSL, bool, default=None),
             decode_responses=source_provider.get_variable(SecretsEnum.CACHE_DECODE_RESPONSES, bool, default=True),
         )
+
+
+class KafkaConfig(msgspec.Struct):
+    bootstrap_servers: str
+    consumer_group_id: str
+
+    @classmethod
+    def load(cls, source_provider: SourceProviderPort) -> Self:
+        return cls(
+            bootstrap_servers=source_provider.get_variable(
+                SecretsEnum.KAFKA_BOOTSTRAP_SERVERS, str
+            ),
+            consumer_group_id=source_provider.get_variable(
+                SecretsEnum.KAFKA_GROUP_ID, str
+            ),
+        )

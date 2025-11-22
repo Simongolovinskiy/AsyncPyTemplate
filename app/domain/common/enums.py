@@ -20,3 +20,5 @@ class SecretsEnum(UpperStrEnum):
     CACHE_PASSWORD = auto()
     CACHE_SSL = auto()
     CACHE_DECODE_RESPONSES = auto()
+    KAFKA_BOOTSTRAP_SERVERS = auto()
+    KAFKA_GROUP_ID = auto()
