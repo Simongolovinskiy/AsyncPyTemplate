@@ -45,3 +45,19 @@ migrations:
 
 all: app
 .DEFAULT_GOAL := all
+
+
+# === OBSERVABILITY ===
+.PHONY: observability-up observability-down observability-logs
+
+observability-up:
+	docker compose -f docker/observability.yml up -d
+	@echo "Observability is ready!"
+	@echo "→ Loki:    http://localhost:3100/ready"
+	@echo "→ Grafana: http://localhost:3000"
+
+observability-down:
+	docker compose -f docker/observability.yml down -v
+
+observability-logs:
+	docker compose -f docker/observability.yml logs -f

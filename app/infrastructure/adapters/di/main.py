@@ -12,7 +12,7 @@ from app.domain.ports.repositories.product import ProductRepositoryPort
 from app.infrastructure.adapters.amqp.kafka import KafkaMessageBroker
 from app.infrastructure.adapters.di.factory import provide_source_provider
 from app.infrastructure.adapters.persistence.rdb.repositories.product import RDBProductRepository
-from app.infrastructure.adapters.persistence.rdb.uow import UnitOfWork
+from app.infrastructure.adapters.persistence.rdb.uow import RDBUnitOfWork
 from app.infrastructure.ports.amqp import MessageBrokerPort
 from app.infrastructure.ports.uow import UnitOfWorkPort
 
@@ -138,13 +138,12 @@ class PersistenceProvider(Provider):
         self,
         conn: asyncpg.Connection,
         product_repo: ProductRepositoryPort,
-    ) -> AsyncGenerator[UnitOfWorkPort, None]:
-        uow = UnitOfWork(
+    ) -> UnitOfWorkPort:
+        uow = RDBUnitOfWork(
             conn=conn,
             products=product_repo,
         )
-        async with uow:
-            yield uow
+        return uow
 
 
 # ============================================================================

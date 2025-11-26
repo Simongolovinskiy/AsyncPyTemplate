@@ -13,7 +13,7 @@ from app.infrastructure.ports.uow import UnitOfWorkPort
 logger = logging.getLogger(__name__)
 
 
-class UnitOfWork(UnitOfWorkPort):
+class RDBUnitOfWork(UnitOfWorkPort):
 
     def __init__(
         self,
@@ -30,7 +30,7 @@ class UnitOfWork(UnitOfWorkPort):
     def in_transaction(self) -> bool:
         return self._in_transaction
 
-    async def __aenter__(self) -> "UnitOfWork":
+    async def __aenter__(self) -> "RDBUnitOfWork":
         if self._in_transaction:
             logger.error("Attempted to start nested transaction")
             raise UoWError("Nested transactions are not allowed")
